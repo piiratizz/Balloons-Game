@@ -8,8 +8,33 @@ public class PlayerData
     public string Nickname;
 
     public int Money;
-    public int Stars;
-    public int Points;
+    public int Stars
+    {
+        get
+        {
+            int total = 0;
+            foreach (var level in CompletedLevels)
+            {
+                total += level.StarsCollected;
+            }
+
+            return total;
+        }
+    }
+
+    public int Points
+    {
+        get
+        {
+            int total = 0;
+            foreach (var level in CompletedLevels)
+            {
+                total += level.PointsCollected;
+            }
+
+            return total;
+        }
+    }
     
     public float SoundLevel;
     public float MusicLevel;

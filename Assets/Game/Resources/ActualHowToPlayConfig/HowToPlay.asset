@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e07546f4c4cc890ecfbb94be270c4, type: 3}
+  m_Name: HowToPlay
+  m_EditorClassIdentifier: 
+  Text: "Click only on the balloons that are selected for you \u2014 clicking on
+    others will lead to failure. For each correct balloon, you earn a certain number
+    of points. Points are converted into coins, which you can use to purchase other
+    balloons. Each level requires more points to complete, but also becomes more
+    difficult. The number of stars you earn depends on how many points you collect
+    out of the maximum possible."

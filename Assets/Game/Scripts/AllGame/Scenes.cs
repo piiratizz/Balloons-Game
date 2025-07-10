@@ -3,8 +3,8 @@
     public const string Boot = "Boot";
     public const string MainMenu = "MainMenu";
 
-    public string GetLevelScene(LevelConfig config)
+    public static string GetLevelScene(LevelConfig config)
     {
-        return $"Level{config.LevelIndex}";
+        return $"Level {config.LevelIndex}";
     }
 }

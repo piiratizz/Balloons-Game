@@ -1,0 +1,1302 @@
+fileFormatVersion: 2
+guid: c1663be797ebbaf4e90412a3496d6032
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MockAvatars_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 350
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf1878152e3cb64abf45ec414011bd1
+      internalID: 1875835313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 349
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef2721a9269ce64c83698893063ff7e
+      internalID: -1036159620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 350
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab192d037b33e7b4cafbb95b083a41fa
+      internalID: 567533129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 350
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c53e1debba0904d8ca6250a813f15f
+      internalID: -1435395479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 352
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f823ef0a2fe27a4e966853d21776795
+      internalID: -739468544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 352
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224aae83db8ac443b17b1ee7960401a
+      internalID: 84896991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 352
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4a1d80fb728e941b9880e70112857d
+      internalID: 1441402296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 350
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab683cbbaed17614b9290a855fc8f351
+      internalID: -852571470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_8
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 348
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3a56ce2b88114a9abdaa1bbc89921
+      internalID: 228872810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 289
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb94b88f03ac4e46b32fb40f20aae1b
+      internalID: 1742867356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 290
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866bee589ebe27746b3b34c4aa479ac5
+      internalID: 1789266805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 286
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c2c36d853f77e49ba001b87a2e9495
+      internalID: 314716721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 286
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f9b74ffa16524294b433f42075d5a
+      internalID: 1472901909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_13
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 286
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904dd899682ccb441b230701ce879b35
+      internalID: -1919993022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_14
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 290
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb28875c8c1c6424aba0dc56fd8a9136
+      internalID: -1686170466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 290
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b093b878abec4498a6636aa921e40e
+      internalID: -493596381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 289
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aec598c86a67af4898d2bb27a896c1e
+      internalID: -1962296786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 288
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78773c2bd65f63841aa6f020cad68e8e
+      internalID: -732289089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 228
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bef3ac81aefe4a47ae6b371f0ed3584
+      internalID: 1870601856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_19
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 228
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ed220a2520ae4598a5fc3c342de10
+      internalID: -408329602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 229
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e4b052db515444f9e64fa4efce427f
+      internalID: -1206630807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 225
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd717a5e8326404da340b85cc320855
+      internalID: 859888124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_22
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 226
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52137d78f2d36bf47aae869d792c84a7
+      internalID: -445692918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_23
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 225
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a909d947fc1643a3f1499e71317f1
+      internalID: -395022769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_24
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 227
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d58e280ee63a489156d560dfa0959
+      internalID: -987315029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_25
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 227
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0132192dc86dd141b2b63213b8d5bc5
+      internalID: 1083088527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_26
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 223
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe43ee7cbfd83a48b6fb77dbf9bea87
+      internalID: 1899541971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 165
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a325be112bf1fa0459f1feac5ff10eac
+      internalID: -2039659100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 165
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45af2df1df10d144965e7867604e561
+      internalID: -1323462085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 166
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65df63f39be686d4494e4db1df852ea9
+      internalID: -733789794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 165
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af37ccef64a7f44a9e47536dfc0118d
+      internalID: 352096732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_31
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 163
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce5bfaf59bee0042b181f214903ea81
+      internalID: -1671044537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 163
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c3f02d52ade34b84d88b5b7cc12f9
+      internalID: -2016639406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_33
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 162
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893dcf1b0806bbd4c909ebf68ca3192a
+      internalID: 304886716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 165
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f0b6f24ecc47c4ea95cfa5b0db0340
+      internalID: 1721229750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_35
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 165
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446eb9cd29cd3e547ad37322e4dda325
+      internalID: -1548804421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 104
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968c95e9bf47d6542a4360921368d331
+      internalID: 1121352021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 103
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc58796469cbef43bc9a523fb9b81fb
+      internalID: 1571410309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 105
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f4968abc33bd04783b295ba48220c3
+      internalID: 1112431501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 105
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb5042dce755654aa8c495e2e42cc9f
+      internalID: -1934631136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 105
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09083c5a7c0446043bf04eca1bedcf8b
+      internalID: -1049957623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 102
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f22c8723f41f549a36110492c84bd8
+      internalID: 1426928550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_42
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 102
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa9d52d54354624c9909758d434affb
+      internalID: -575711188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_43
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 102
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2a1572b0fb22d4999d23e18d68751a
+      internalID: -561446822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_44
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 104
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12339d8e8715fe8419928c1d943226ec
+      internalID: -964456183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_45
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 42
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c48e21875b9a71409a17d08898c8e62
+      internalID: -1016631442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_46
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 42
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606354ac8c1be824daddb9ad4d3dd309
+      internalID: -226575789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_47
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 42
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee49a3990972411458e6adc1c69504f7
+      internalID: 847005219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 42
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5902e282fd483d043a797b5570e4d967
+      internalID: 1396361558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_49
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 42
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982f97af970e53b4985790343a942f7d
+      internalID: 727744562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_50
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 42
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c1e319c696b864a882e282be3640df
+      internalID: -49003635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_51
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 41
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a0dadf6390d74cb29180f93e4e68d
+      internalID: -1518839942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_52
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 41
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3ebf8675ed5d546b60260fd4a7102f
+      internalID: 2085209816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MockAvatars_53
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 42
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb2325f05b6974c80c819f3980721b
+      internalID: 1801232738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MockAvatars_0: 1875835313
+      MockAvatars_1: -1036159620
+      MockAvatars_10: 1789266805
+      MockAvatars_11: 314716721
+      MockAvatars_12: 1472901909
+      MockAvatars_13: -1919993022
+      MockAvatars_14: -1686170466
+      MockAvatars_15: -493596381
+      MockAvatars_16: -1962296786
+      MockAvatars_17: -732289089
+      MockAvatars_18: 1870601856
+      MockAvatars_19: -408329602
+      MockAvatars_2: 567533129
+      MockAvatars_20: -1206630807
+      MockAvatars_21: 859888124
+      MockAvatars_22: -445692918
+      MockAvatars_23: -395022769
+      MockAvatars_24: -987315029
+      MockAvatars_25: 1083088527
+      MockAvatars_26: 1899541971
+      MockAvatars_27: -2039659100
+      MockAvatars_28: -1323462085
+      MockAvatars_29: -733789794
+      MockAvatars_3: -1435395479
+      MockAvatars_30: 352096732
+      MockAvatars_31: -1671044537
+      MockAvatars_32: -2016639406
+      MockAvatars_33: 304886716
+      MockAvatars_34: 1721229750
+      MockAvatars_35: -1548804421
+      MockAvatars_36: 1121352021
+      MockAvatars_37: 1571410309
+      MockAvatars_38: 1112431501
+      MockAvatars_39: -1934631136
+      MockAvatars_4: -739468544
+      MockAvatars_40: -1049957623
+      MockAvatars_41: 1426928550
+      MockAvatars_42: -575711188
+      MockAvatars_43: -561446822
+      MockAvatars_44: -964456183
+      MockAvatars_45: -1016631442
+      MockAvatars_46: -226575789
+      MockAvatars_47: 847005219
+      MockAvatars_48: 1396361558
+      MockAvatars_49: 727744562
+      MockAvatars_5: 84896991
+      MockAvatars_50: -49003635
+      MockAvatars_51: -1518839942
+      MockAvatars_52: 2085209816
+      MockAvatars_53: 1801232738
+      MockAvatars_6: 1441402296
+      MockAvatars_7: -852571470
+      MockAvatars_8: 228872810
+      MockAvatars_9: 1742867356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

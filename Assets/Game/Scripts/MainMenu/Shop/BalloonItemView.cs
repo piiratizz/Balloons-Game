@@ -10,7 +10,8 @@ public class BalloonItemView : MonoBehaviour
     [SerializeField] private Button buyBtn;
     [SerializeField] private Button selectBtn;
     [SerializeField] private TextMeshProUGUI priceText;
-
+    [SerializeField] private Image selectedImage;
+    
     [SerializeField] private string selectedText = "Selected";
     [SerializeField] private string ownedText = "Owned";
     
@@ -25,6 +26,7 @@ public class BalloonItemView : MonoBehaviour
         itemPreviewImage.sprite = _itemData.Sprite;
         HideButton(buyBtn);
         HideButton(selectBtn);
+        selectedImage.gameObject.SetActive(false);
         
         if (!owned)
         {
@@ -38,6 +40,7 @@ public class BalloonItemView : MonoBehaviour
         if (selected)
         {
             priceText.text = selectedText;
+            selectedImage.gameObject.SetActive(true);
             return;
         }
         
@@ -60,12 +63,14 @@ public class BalloonItemView : MonoBehaviour
     public void SelectItem()
     {
         HideButton(selectBtn);
+        selectedImage.gameObject.SetActive(true);
         priceText.text = selectedText;
     }
 
     public void DeselectItem()
     {
         BindButton(selectBtn, SelectButtonClicked);
+        selectedImage.gameObject.SetActive(false);
         priceText.text = ownedText;
     }
     

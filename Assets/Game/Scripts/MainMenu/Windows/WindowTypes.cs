@@ -3,5 +3,8 @@
     MainMenu,
     Settings,
     Profile,
-    Shop
+    Shop,
+    Leaderboard,
+    HowToPlay,
+    LevelSelectingWindow
 }

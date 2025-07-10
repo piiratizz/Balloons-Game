@@ -12,7 +12,7 @@ public class SettingsWindow : WindowBase
     private PlayerActualDataHolder _dataHolder;
     private IPlayerSaveLoadService _loadService;
     
-    private void Start()
+    public override void Initialize()
     {
         _dataHolder = ServiceLocator.Get<PlayerActualDataHolder>();
         _loadService = ServiceLocator.Get<JsonPlayerPrefsLoader>();

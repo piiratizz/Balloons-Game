@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WindowsManager : MonoBehaviour
+public class WindowsManager : StartInitializable
 {
     [SerializeField] private Button backToMenuButton;
 
@@ -15,9 +15,14 @@ public class WindowsManager : MonoBehaviour
     private Action _onProfileClick;
     private Action _onSettingsClick;
     private Action _onShopClick;
+    private Action _onLeaderboardClick;
+    private Action _onHowToPlayClick;
     private Action _onExitClick;
+    private Action _onPlayClick;
+
+    private bool _initialized = false;
     
-    private void Awake()
+    public override void Initialize()
     {
         backToMenuButton.onClick = new Button.ButtonClickedEvent();
         backToMenuButton.onClick.AddListener(OnBackToMenuClicked);
@@ -32,35 +37,60 @@ public class WindowsManager : MonoBehaviour
         _onProfileClick = () => SwitchWindow(WindowTypes.Profile);
         _onSettingsClick = () => SwitchWindow(WindowTypes.Settings);
         _onShopClick = () => SwitchWindow(WindowTypes.Shop);
+        _onLeaderboardClick = () => SwitchWindow(WindowTypes.Leaderboard);
+        _onHowToPlayClick = () => SwitchWindow(WindowTypes.HowToPlay);
+        _onPlayClick = () => SwitchWindow(WindowTypes.LevelSelectingWindow);
         _onExitClick = () => Application.Quit();
-    }
-
-    private void Start()
-    {
+        
         foreach (var window in windows)
         {
+            window.Initialize();
             window.Close();
         }
+        
         SwitchWindow(WindowTypes.MainMenu);
+        Subscribe();
+        _initialized = true;
+    }
+    
+    private void OnEnable()
+    {
+        if(!_initialized) return;
+
+        Subscribe();
     }
 
-    private void OnEnable()
+    private void Subscribe()
     {
         _mainMenuWindow.ProfileButtonClicked += _onProfileClick;
         _mainMenuWindow.SettingsButtonClicked += _onSettingsClick;
         _mainMenuWindow.ShopButtonClicked += _onShopClick;
+        _mainMenuWindow.LeaderboardButtonClicked += _onLeaderboardClick;
+        _mainMenuWindow.HowToPlayButtonClicked += _onHowToPlayClick;
         _mainMenuWindow.ExitButtonClicked += _onExitClick;
+        _mainMenuWindow.PlayButtonClicked += _onPlayClick;
     }
-    
+
     private void OnDisable()
+    {
+        if(!_initialized) return;
+        
+        Unsubscribe();
+    }
+
+    private void Unsubscribe()
     {
         _mainMenuWindow.ProfileButtonClicked -= _onProfileClick;
         _mainMenuWindow.SettingsButtonClicked -= _onSettingsClick;
         _mainMenuWindow.ShopButtonClicked -= _onShopClick;
+        _mainMenuWindow.LeaderboardButtonClicked -= _onLeaderboardClick;
+        _mainMenuWindow.HowToPlayButtonClicked -= _onHowToPlayClick;
         _mainMenuWindow.ExitButtonClicked -= _onExitClick;
+        _mainMenuWindow.PlayButtonClicked -= _onPlayClick;
     }
 
-    private void SwitchWindow(WindowTypes windowType)
+
+    public void SwitchWindow(WindowTypes windowType)
     {
         backToMenuButton.gameObject.SetActive(windowType != WindowTypes.MainMenu);
         

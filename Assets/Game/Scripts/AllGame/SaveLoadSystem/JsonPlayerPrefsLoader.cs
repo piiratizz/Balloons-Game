@@ -5,9 +5,21 @@ using UnityEngine;
 public class JsonPlayerPrefsLoader : IPlayerSaveLoadService
 {
     private const string SaveKey = "PlayerSaveData";
-
+    
+    private readonly PlayerData _defaultPlayerData = new PlayerData()
+    {
+        Nickname = "Player",
+        Money = 1000,
+        SoundLevel = 100,
+        MusicLevel = 100,
+        SendNotification = true,
+        SelectedBallIndex = 0,
+        OwnedBallsIndexes = new List<int>(collection: new List<int>(1) {0}),
+        CompletedLevels = new List<PlayerCompletedLevelData>()
+    };
+    
     public event Action OnDataUpdated;
-
+    
     public void Save(PlayerData data)
     {
         string json = JsonUtility.ToJson(data, prettyPrint: true);
@@ -21,18 +33,7 @@ public class JsonPlayerPrefsLoader : IPlayerSaveLoadService
     {
         if (!PlayerPrefs.HasKey(SaveKey))
         {
-            return new PlayerData
-            {
-                Nickname = "Player",
-                Money = 0,
-                Stars = 0,
-                Points = 0,
-                SoundLevel = 100,
-                MusicLevel = 100,
-                SendNotification = true,
-                SelectedBallIndex = 0,
-                CompletedLevels = new List<PlayerCompletedLevelData>()
-            };
+            return _defaultPlayerData;
         }
 
         string json = PlayerPrefs.GetString(SaveKey);

@@ -1,5 +1,6 @@
 
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,10 +9,10 @@ public class ShopWindow : WindowBase
     [SerializeField] private Button leftArrowBtn;
     [SerializeField] private Button rightArrowBtn;
     [SerializeField] private ShopItemsManager shopItemsManager;
-
+    
     private int _selectedPage;
     
-    private void Start()
+    public override void Initialize()
     {
         leftArrowBtn.onClick = new Button.ButtonClickedEvent();
         leftArrowBtn.onClick.AddListener(PreviousPage);
@@ -23,8 +24,9 @@ public class ShopWindow : WindowBase
     public override void Open()
     {
         base.Open();
+        _selectedPage = 0;
         shopItemsManager.Create();
-        shopItemsManager.SelectPage(0);
+        shopItemsManager.SelectPage(_selectedPage);
     }
 
     private void NextPage()

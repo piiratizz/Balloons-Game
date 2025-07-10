@@ -9,8 +9,6 @@ public class PlayerActualDataHolder
     {
         Nickname = _playerData.Nickname,
         Money = _playerData.Money,
-        Stars = _playerData.Stars,
-        Points = _playerData.Points,
         SoundLevel = _playerData.SoundLevel,
         MusicLevel = _playerData.MusicLevel,
         SendNotification = _playerData.SendNotification,
